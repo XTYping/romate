@@ -1,0 +1,52 @@
+.root{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.msg{
+  text-align: center;
+  margin-bottom: 10rpx;
+}
+.msg .img{
+  height: 300rpx;
+}
+
+.mainfunction{
+  display: flex;
+}
+
+.mainfunction .item{
+  margin-top: 5rpx;
+  margin-bottom: 5rpx;
+  flex: 1;
+}
+.mainfunction .item .img{
+  display: block;
+  height: 50rpx;
+  width: 50rpx;
+  margin: 0 auto;
+}
+.mainfunction .item text{
+  font-size: 30rpx;
+  text-align: center;
+  display: block;
+}
+.xian{
+  border: 1rpx solid black;
+  border-radius: 20rpx;
+}
+.list{
+  flex: 1;
+}
+
+.list .tesklist{
+}
+.list .tesklist .item{
+  display: flex;
+  border-bottom:1rpx solid black;
+  border-radius: 5rpx;
+  height: 130rpx;
+}
+.list .tesklist .item .ha{
+  flex: 1;
+}

@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "van-tabbar": "vant-weapp/tabbar",
+    "van-tabbar-item":"vant-weapp/tabbar-item",
+    "page1": "/pages/run/run",
+    "page2": "/pages/school/school",
+    "page3": "/pages/massage/massage",
+    "page4": "/pages/mine/mine"
+  },
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark"
+}

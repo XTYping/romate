@@ -1,0 +1,4 @@
+<!--pages/school/school.wxml-->
+<view bindtap="addWindowControl">
+
+</view>

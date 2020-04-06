@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/main/main"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "室友",
+    "backgroundColor": "#c0c0c0",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents":{}
+}

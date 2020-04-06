@@ -1,0 +1,32 @@
+<view class="root" bindtap="addWindowControl">
+  <swiper class="msg" 
+      indicator-dots="true" 
+      indicator-color="white" 
+      indicator-active-color="black"
+      autoplay="true"
+      circular="ture">
+    <swiper-item wx:for="{{push}}" wx:key="_id">
+        <image class='img' src='{{item.imgAddress}}' mode="aspectFill"></image>
+    </swiper-item>
+  </swiper>
+
+  <view class="mainfunction" >
+    <view class='item' wx:for="{{ mineFunction }}" wx:key="_id">
+      <image class='img' src='{{item.iconAddress}}'></image>
+      <text>{{item.functionName}}</text>
+    </view>
+  </view>
+
+  <view class='xian'></view>
+  
+  <view class="list">
+    <scroll-view class="tesklist">
+      <view wx:for="{{taskList}}" class="item" wx:key="_id">
+        <text>起点：{{item.startPoint}}</text>
+        <text>终点:{{item.endPoint}}</text>
+        <text>发布时间：{{item.startTime}}</text>
+        <text>剩余时间:{{item.limitTime}}</text>
+      </view>
+    </scroll-view>
+  </view>
+</view>
